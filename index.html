@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="icon" href="img/avataaars.png">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Ucen Elma Portfolio</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Uc<span>e</span>n</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link ">Home</a></li>
+
+          <li><a href="#about" class="nav__link">About</a></li>
+
+          <li><a href="#portfolio" class="nav__link">Projects</a></li>
+
+          <li><a href="#contact" class="nav__link">Contcat</a></li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ui uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+
+
+        <a href="https://www.linkedin.com/in/hocine-elmahbouby/" class="nav__social-link" target="_blank">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+
+        <a href="https://github.com/UcenELma" class="nav__social-link" target="_blank">
+          <i class="uil uil-github"></i>
+        </a>
+
+
+        <a href="https://twitter.com/callmeusen" class="nav__social-link" target="_blank">
+          <i class="uil uil-twitter"></i>
+        </a>
+
+
+        <a href="https://www.facebook.com/Hocineelma/" class="nav__social-link" target="_blank">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/hocineelmahbouby/" class="nav__social-link" target="_blank">
+          <i class="uil uil-instagram"></i>
+        </a>
+      </div>
+
+      <div class="nav__btns">
+        <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="img/home.jpg" alt="" class="home__img">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome To My World</span>
+          <h1 class="home__title">
+            Hi, I'm Ucen Elma,  a <span>Web developer</span> from Morocco.
+          </h1>
+          <a href="Ucen's cv.pdf" class="nav__link-btn btn" target="_blank">Download CV ⬇︎</a>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+
+
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+
+          <p class="about__description">I'm a Web developer and high-energy physics master's student. Passionate
+            about coding and unraveling the mysteries of the universe, I bring a unique perspective to every project.
+            From crafting dynamic web applications to delving into fundamental forces, I thrive at the intersection of
+            technology and science, driven by a desire to innovate and make an impact.
+          </p>
+
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">Skils</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & Certification</span>
+          </div>
+
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+
+                <p class="tabs__description">
+                  <span>Back-end and Database</span>
+                  <span>Node Js - Express - React - Python - C++</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Front-end</span>
+                  <span>HTML - CSS</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Version control and collaboration
+                  </span>
+                  <span>Linux - Github - Postman - Agile & Scrum</span>
+                </p>
+
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+
+                <p class="tabs__description">
+                  <span>Intern, Web developer </span> - ArKx Academy <br>
+                  <span>2024</span>
+                  <span>Transforming ideas into functional and visually appealing websites using MongoDB, Express.js,
+                    React, and Node.js.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Intern, Maintenance Technician</span> - SOMAFACO <br>
+                  <span>2021</span>
+                  <span>Assisted in troubleshooting and repairing electrical and mechanical systems</span>
+                </p>
+
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+
+                <p class="tabs__description">
+                  <span>Program: MERN Stack</span> - JOBINTECH, Casablanca
+                  <span>2024</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Master: High Energy Physics</span> - University Hassan II, Casablanca
+                  <span>2024</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Bachelor: Electronics
+                  </span> - University Hassan II, Casablanca
+                  <span>2021</span>
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <img src="img/about.png" alt="" class="about__img">
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services"></section>
+
+    <!--=============== PROJECTS ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__description">Explore My Projects: Below this text, you'll find details about a variety of
+        projects I've worked on. Click on each project to see more and delve into the specifics of my contributions and
+        the technologies involved. </p>
+
+      <div class="portfolio__container container grid">
+        <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">MERN</p>
+            <h3 class="portfolio__tilte">E-Commerce Website</h3>
+            <p class="portfolio__description">In this project, we've crafted a stunning e-commerce website showcasing a
+              dazzling array of jewels.
+              <br><a href="like of poreject" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">HTML, CSS & JS</p>
+            <h3 class="portfolio__tilte">My Portfolio</h3>
+            <p class="portfolio__description">This is where I encapsulate my journey, career, and projects, providing a
+              glimpse into who I am and what I've accomplished.<br>
+              <a href="like of poreject" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Python</p>
+            <h3 class="portfolio__tilte">Nuclear Simulations</h3>
+            <p class="portfolio__description">In my master's program, I collaborated with two classmates on a simulation
+              project focused on nuclear fission-fusion, exploring atomic energy's complexities and modeling critical
+              reactions.<br>
+              <a href="https://github.com/UcenELma/PhysicsEngine" target="_blank" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+          </div>
+        </div>
+
+   <!--=============== ADD MORE WORKS
+            <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Python</p>
+            <h3 class="portfolio__tilte">Nuclear Simulations</h3>
+            <p class="portfolio__description">In my master's program, I collaborated with two classmates on a simulation
+              project focused on nuclear fission-fusion, exploring atomic energy's complexities and modeling critical
+              reactions.<br>
+              <a href="https://github.com/UcenELma/PhysicsEngine" target="_blank" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Python</p>
+            <h3 class="portfolio__tilte">Nuclear Simulations</h3>
+            <p class="portfolio__description">In my master's program, I collaborated with two classmates on a simulation
+              project focused on nuclear fission-fusion, exploring atomic energy's complexities and modeling critical
+              reactions.<br>
+              <a href="https://github.com/UcenELma/PhysicsEngine" target="_blank" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Python</p>
+            <h3 class="portfolio__tilte">Nuclear Simulations</h3>
+            <p class="portfolio__description">In my master's program, I collaborated with two classmates on a simulation
+              project focused on nuclear fission-fusion, exploring atomic energy's complexities and modeling critical
+              reactions.<br>
+              <a href="https://github.com/UcenELma/PhysicsEngine" target="_blank" class="see__link-btn seebtn">See more ➠</a>
+            </p>
+          </div>
+        </div>
+     ===============-->
+
+      </div>
+    </section>
+
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Hire Me</h2>
+
+          <p class="contact__description">
+            I am available for work. Contact with me via <strong>WhatsApp</strong>
+            <a href=" https://wa.me/+212601484996" target="_blank">+212 601-484996</a>
+            or <strong>email:</strong> <a href="mailto:elma.hocine@gmail.com" target="_blank">elma.hocine@gmail.com</a>
+          </p>
+
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Your Name" class="contact__input" id="contact-name ">
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Your email" class="contact__input" id="contact-email ">
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="Write a Subject" class="contact__input"
+                id="contact-subject">
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input  textarea"
+                placeholder="Your message"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="btn">
+
+            <!-- <p class="error__message" id="error-message">Error</p> -->
+
+          </form>
+        </div>
+
+        <!-- <img src="img/contact.jpg" alt="" class="contact__img"> -->
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">Uc<span>e</span>n</a>
+
+      <div class="footer__socials">
+
+
+        <a href="https://www.linkedin.com/in/hocine-elmahbouby/" class="footer__social-link" target="_blank">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+
+        <a href="https://github.com/UcenELma" class="footer__social-link" target="_blank">
+          <i class="uil uil-github"></i>
+        </a>
+
+
+        <a href="https://twitter.com/callmeusen" class="footer__social-link" target="_blank">
+          <i class="uil uil-twitter"></i>
+        </a>
+
+
+        <a href="https://www.facebook.com/Hocineelma/" class="footer__social-link" target="_blank">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/hocineelmahbouby/" class="footer__social-link" target="_blank">
+          <i class="uil uil-instagram"></i>
+        </a>
+      </div>
+
+      <p class="footer__copyright"> &copy; 2024. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icone"></i>
+  </a>
+
+  <!--=============== EMAIL JS ===============-->
+  <script src=""></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="main.js"></script>
+</body>
+
+</html>
